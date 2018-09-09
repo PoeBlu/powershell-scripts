@@ -1,0 +1,1 @@
+﻿Get-WmiObject -Class Win32_ComputerSystem -Property UserName -ComputerName MSSLW17100558.ndc.nasa.gov

@@ -1,0 +1,1 @@
+﻿Get-ADGroupMember "APPSEC_TrackSafe_HSVT2_SUP" | Get-ADUser | Foreach-Object {Add-ADGroupMember -Identity "APPSEC_TrackSafe_HSVT3_SUP" -Members $_}

@@ -1,0 +1,1 @@
+﻿Get-Acl -Path \\al130-as-tmd01\MDIS\MDIS_TO_JDE| Set-Acl -Path \\al130-as-pmd01\MDIS\MDIS_TO_JDE

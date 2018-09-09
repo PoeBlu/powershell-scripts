@@ -1,0 +1,1 @@
+﻿Add-ADGroupMember -Identity 'APPSEC_TrackSafe_HSVT2_ADMIN' -Members (Get-ADGroupMember -Identity 'APPSEC_TrackSafe_HSVT1_ADMIN' -Recursive)

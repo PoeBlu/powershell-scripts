@@ -1,0 +1,1 @@
+﻿Get-SystemInfo -computer AL1L58307 | out-file H:\output.csv

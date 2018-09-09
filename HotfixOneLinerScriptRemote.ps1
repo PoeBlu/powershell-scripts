@@ -1,0 +1,1 @@
+﻿invoke-command -computername Al1d60050 -command {get-hotfix} | where {$_.hotfixid -eq 'KB4021558'}

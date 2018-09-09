@@ -1,0 +1,1 @@
+﻿Get-Content H:\ADPhoneUsers.txt | foreach-object { set-aduser -identity $_ -clear mobile } 

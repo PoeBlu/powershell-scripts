@@ -1,0 +1,1 @@
+﻿. .\Get-ADDirectReport.ps1 -Group "IT Stuff ReadWrite" -EmailFrom "jaime.denys@endo.com" -EmailTo "jaime.denys@endo.com" -EmailServer "mail.endo.com" -verbose

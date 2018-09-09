@@ -1,0 +1,1 @@
+﻿get-aduser -filter 'enabled -eq $true' -Properties lastlogondate -SearchBase "OU=Qualitest Employees,OU=Employees,OU=Endo Users,OU=Corp,DC=Endo,DC=com" | Where-object {$_.lastlogondate -lt (get-date).AddDays(-90)} | Export-csv H:\users90days.csv -NoTypeInformation | sort name
